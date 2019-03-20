@@ -24,7 +24,7 @@
     {
       "type": "endpoint",
       "appId": "42db5724-518f-4940-8d2f-1a7ece8edeeb",
-      "appPassword": "lLwchnIbvs4Kq1HpyzfqfQ==!zDleJoSJBBbAeaI8Fks3yQaSfhbNW5YKChO91n5A/3o=",
+      "appPassword": "Z=J?-O6zdxm+V%Hq)_TKWWUS-",
       "endpoint": "https://testtobix.azurewebsites.net/api/messages",
       "name": "production",
       "id": "4"
