@@ -29,7 +29,6 @@ namespace Microsoft.BotBuilderSamples
         {
             LuisServices = luisServices ?? throw new ArgumentNullException(nameof(luisServices));
         }
-        public Nullable<bool> Verbose {get; set; } = true;
 
         /// <summary>
         /// Gets the set of LUIS Services used.

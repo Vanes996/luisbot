@@ -63,32 +63,39 @@ namespace Microsoft.BotBuilderSamples
         /// <returns>A <see cref="Task"/> that represents the work queued to execute.</returns>
 
 
-        
+
         public async Task OnTurnAsync(ITurnContext turnContext, CancellationToken cancellationToken = default(CancellationToken))
         {
-            
+
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {
                 // Check LUIS model
                 var recognizerResult = await _services.LuisServices[LuisKey].RecognizeAsync(turnContext, cancellationToken);
+
                 var topIntent = recognizerResult?.GetTopScoringIntent();
                 if (topIntent != null && topIntent.HasValue && topIntent.Value.intent != "None")
                 {
                     Console.WriteLine(topIntent.Value.intent);
-                    if (topIntent.Value.intent.Equals("Giga"))
+                    if (topIntent.Value.intent.Equals("GetInternet"))
                     {
                         await turnContext.SendActivityAsync($"Al momento hai consumato 5.4Gb, ti rimangono 4.6Gb\n");
-                        counter++;
                     }
-                    else if (topIntent.Value.intent.Equals("Minuti"))
+                    else if (topIntent.Value.intent.Equals("GetMinuti"))
                     {
-                        await turnContext.SendActivityAsync($"Al momento hai consumato 15 minuti, ti rimangono 85 minuti \n");
-                        counter++;
+                        await turnContext.SendActivityAsync($"Al momento hai consumato 15 minuti, ti rimangono 85 minuti\n");
                     }
-                    else if (topIntent.Value.intent.Equals("Giga"))
+                    else if (topIntent.Value.intent.Equals("GetMessaggi"))
                     {
                         await turnContext.SendActivityAsync($"Hai esaurito i 100 messaggi disponibili questo mese, la tua promozione si rinnoverà il 01/04/2019\n");
-                        counter++;
+                    }
+                    else if (topIntent.Value.intent.Equals("getgiga+mins")){
+                        await turnContext.SendActivityAsync($"Hai consumato 15 minuti e 5.4Gb\n");
+                    }
+                    else if (topIntent.Value.intent.Equals("getmins+sms")){
+                        await turnContext.SendActivityAsync($"Hai esaurito i 100 messaggi disponibili questo mese e hai consumato 15 minuti\n");
+                    }
+                    else if (topIntent.Value.intent.Equals("getsms+giga")){
+                        await turnContext.SendActivityAsync($"Hai esaurito i 100 messaggi disponibili questo mese e hai consumato 5.4Gb\n");
                     }
                 }
                 else
