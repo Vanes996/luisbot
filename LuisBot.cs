@@ -97,6 +97,10 @@ namespace Microsoft.BotBuilderSamples
                     else if (topIntent.Value.intent.Equals("getsms+giga")){
                         await turnContext.SendActivityAsync($"Hai esaurito i 100 messaggi disponibili questo mese e hai consumato 5.4Gb\n");
                     }
+                    else if (topIntent.Value.intent.Equals("Saluti"))
+                    {
+                        await turnContext.SendActivityAsync($"Ciao Matteo, sono ancora disponibili 5Gb su 10! Come posso esserti d'aiuto? :)\n");
+                    }
                 }
                 else
                 {
