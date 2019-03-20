@@ -1,0 +1,13 @@
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\appsettings.json
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\luis-with-appinsights.bot
+C:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\LuisBotAppInsights.deps.json
+C:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\LuisBotAppInsights.runtimeconfig.json
+C:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\LuisBotAppInsights.runtimeconfig.dev.json
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\LuisBotAppInsights.dll
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\bin\Debug\netcoreapp2.0\LuisBotAppInsights.pdb
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\obj\Debug\netcoreapp2.0\LuisBotAppInsights.csprojAssemblyReference.cache
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\obj\Debug\netcoreapp2.0\LuisBotAppInsights.csproj.CoreCompileInputs.cache
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\obj\Debug\netcoreapp2.0\LuisBotAppInsights.AssemblyInfoInputs.cache
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\obj\Debug\netcoreapp2.0\LuisBotAppInsights.AssemblyInfo.cs
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\obj\Debug\netcoreapp2.0\LuisBotAppInsights.dll
+c:\Users\vanes\VODAFONE\BotBuilder-Samples\samples\csharp_dotnetcore\21.luis-with-appinsights\obj\Debug\netcoreapp2.0\LuisBotAppInsights.pdb

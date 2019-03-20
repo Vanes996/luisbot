@@ -1,0 +1,38 @@
+{
+    "name": "luis-with-appinsights",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        },        
+        {
+            "type": "luis",
+            "name": "Luis-bot",
+            "appId": "d14fc6f8-ac1c-4016-a1ff-18615bd96d8a",
+            "authoringKey": "42828ae3f75b4e738af46588419ef50b",
+            "subscriptionKey": "42828ae3f75b4e738af46588419ef50b",
+            "version": "0.1",
+            "region": "westus",
+            "id": "3"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "",
+            "subscriptionId": "0585cb66-6d18-483f-860e-3d5db8ab9155",
+            "resourceGroup": "",
+            "name": "",
+            "serviceName": "",
+            "instrumentationKey": "fcece15f-62e5-4095-b580-65a3ac143ce7",
+            "applicationId": "",
+            "apiKeys": {},
+            "id": "2"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
